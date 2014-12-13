@@ -17,11 +17,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
+  <project path="build" name="Team-Hydra/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="Team-Hydra/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -329,7 +329,7 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/av" name="Team-Hydra/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
@@ -357,7 +357,7 @@
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="Team-Hydra/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -372,8 +372,8 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware" name="Team-Hydra/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="Team-Hydra/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="CyanogenMod/android_hardware_nvidia_tegra124" groups="tegra124" />
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
@@ -553,4 +553,18 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="device/samsung/klte" name="Team-Hydra/android_device_samsung_klte" />
+  <project path="device/samsung/klte-common" name="Team-Hydra/android_device_samsung_klte-common" />
+  <project path="hardware/qcom/display-caf" name="Team-Hydra/android_hardware_qcom_display-caf" groups="caf" />
+  <project path="hardware/qcom/display-legacy" name="Team-Hydra/android_hardware_qcom_display-legacy" />
+  <project path="hardware/qcom/gps-legacy" name="Team-Hydra/android_hardware_qcom_gps-legacy" />
+  <project path="hardware/qcom/media-caf" name="Team-Hydra/android_hardware_qcom_media-caf" groups="caf" />
+  <project path="hardware/qcom/media-legacy" name="Team-Hydra/android_hardware_qcom_media-legacy" />
+  <project path="kernel/google/msm" name="Team-Hydra/android_kernel_google_msm" />
+  <project path="kernel/samsung/smdk4412" name="Team-Hydra/android_kernel_samsung_smdk4412" />
+  <project path="kernel/samsung/klte" name="Team-Hydra/android_kernel_samsung_klte" />
+  <project path="kernel/samsung/Ramdisks" name="Team-Hydra/SGS4-RAMDISKS" />
+  <project path="packages/apps/CMWimaxSettings" name="Team-Hydra/android_packages_apps_CMWimaxSettings" />
+  <project path="prebuilt/linux-x86/toolchain/linaro-arm-cortex-a8" name="Team-Hydra/linaro-arm-cortex-a8" />
+  <project path="vendor/samsung" name="Team-Hydra/android_vendor_samsung" />
 </manifest>
